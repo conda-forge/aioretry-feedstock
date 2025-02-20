@@ -1,5 +1,5 @@
 {% set name = "aioretry" %}
-{% set version = "6.2.1" %}
+{% set version = "6.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aioretry-{{ version }}.tar.gz
-  sha256: 8c2d57559de57e9590ae65f89c6d8ca8346573f1995711b09b156b5dfaf42626
+  sha256: 94e2e140dae0babedcffb9bd50e75583756f33731d4ea463be2ed6c9e44f21f1
 
 build:
   noarch: python
